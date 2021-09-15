@@ -1,0 +1,16 @@
+
+#服务配置 应用配置 数据库连接池 jpa
+server:
+  port: 9001
+spring:
+  application:
+    name: ihrm-company #指定服务名
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ihrm?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    username: root
+    password: 1993112
+  jpa:
+    database: MySQL
+    show-sql: true
+    open-in-view: true
